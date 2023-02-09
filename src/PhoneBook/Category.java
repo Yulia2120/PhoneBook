@@ -84,7 +84,7 @@ public class Category extends PhoneBook implements Phone{
 
     @Override
     public void print() {
-        for(int i = 0; i <=phoneBook.size(); i++){
+        for(int i = 0; i <=phoneBook.size()+1; i++){
             System.out.println("\u001B[35m"+"Contact: "+"\u001B[33m"+nameList.get(i) +" " +numList.get(i)+ "  "+catList.get(i));
         }
     }

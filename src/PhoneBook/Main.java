@@ -15,19 +15,19 @@ public class Main {
         book.addName("Alice", "+3809657430", "work");
 
         System.out.println("---------------------------------------------");
-        System.out.println(book.phoneBook);
+        book.print();
         System.out.println("---------------------------------------------");
         book.searchName("Jonn");
         System.out.println("---------------------------------------------");
         book.searchCategory("work");
         System.out.println("---------------------------------------------");
-        book.insert(3, "Sara", "+3806376811122", "work");
-        System.out.println(book.phoneBook);
+        book.insert(4, "Sara", "+3806376811122", "work");
+        book.print();
         System.out.println("---------------------------------------------");
         book.delete("Bill");
-        System.out.println(book.phoneBook);
-        System.out.println("---------------------------------------------");
         book.print();
+        System.out.println("---------------------------------------------");
+
 
 
     }
